@@ -79,9 +79,9 @@ main .main-content .text{
 main .main-content .text p{
     width: 75%;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 1.6;
 }
-
 /* CARDS */
 main .techs .cards-container{
     display: flex;
@@ -94,6 +94,7 @@ main .techs .cards-container .cards{
     background-color: #eee;
     border-radius: 8px;
     margin-left: 1.5em;
+    margin-right: 1.5em;
     cursor: pointer;
 
     display: flex;
@@ -105,12 +106,10 @@ main .techs .cards-container .cards{
 main .techs .cards-container .cards img{
     width: 80%;
 }
-
 main .techs .cards-container .cards:hover{
     box-shadow: 0px 0px 8px #00e0ff;
 
 }
-
 /* FIGURE */
 main figure{
     display: flex;
